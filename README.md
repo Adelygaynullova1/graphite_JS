@@ -8,7 +8,7 @@
 
 <p align="center">
 
-<img src="C:\Users\User1\WebstormProjects\firstProject_On_Js\assets\heart.gif" alt="я гифка">
+<img src="assets\heart.gif" alt="я гифка">
 <p align="center">
 сердечко для вас 
 
