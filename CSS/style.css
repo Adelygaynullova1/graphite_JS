@@ -1,0 +1,52 @@
+body{
+    background-color: #d4daff;
+}
+/*
+margin регулируют положение блока с кнопками
+*/
+.active{
+    background-color: #7252f6;
+}
+.header-btn:hover {
+    background-color: #7252f6;
+}
+.main__header-block{
+    border: 2px solid #866ef3;
+    border-radius: 10px;
+    width: 550px;
+    height: 40px;
+    background-color: #afb5ec;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+/*
+Положение кнопок в блоке
+*/
+.main__header-block-btn{
+    padding-top: 10px;
+}
+.main__draw-block{
+    text-align: center;
+}
+.main__draw-block-canvas{
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid #b7b3c0;
+}
+.main__setting-block{
+    border: 2px solid #866ef3;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 5px;
+    width: 550px;
+    height: 40px;
+    background-color: #afb5ec;
+}
+.main__setting-block-btn{
+
+    padding-top: 5px;
+}
+.input{
+    border: 0;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Graphite</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <script type="module" src="JS/main.js"></script>
+
+
+</head>
+<body>
+<main class="main">
+    <section class="main__header">
+        <div class="main__header-block">
+            <div class="main__header-block-btn">
+                <button class="header-btn" id="btn-clear">Очистить</button>
+                <button class="header-btn" id="btn-eraser">Ластик</button>
+                <button class="header-btn" id="btn-download">Скачать</button>
+                <button class="header-btn" id="btn-save">Сохранить</button>
+            </div>
+        </div>
+    </section>
+    <section class="main__draw">
+        <div class="main__draw-block">
+            <canvas class="main__draw-block-canvas" id="canvas"></canvas>
+        </div>
+    </section>
+    <section class="main__setting">
+        <div class="main__setting-block">
+            <div class="main__setting-block-btn">
+                <label class="setting-btn-color">
+                    <span class="item">Цвет:</span>
+                    <input type="color" id="input-color" class="input">
+                </label>
+                <label class="setting-btn-thickness">
+                    <span class="item">Толщина:</span>
+                    <input type="range" id="input-thickness" class="input">
+                </label>
+                <label class="setting-btn-intensity">
+                    <span class="item">Интенсивность:</span>
+                    <input type="range" id="input-intensity" class="input">
+                </label>
+            </div>
+        </div>
+    </section>
+</main>
+</body>
+</html>
